@@ -1,123 +1,148 @@
-body{
-    font-size: 16px;
-    color: #000000;
-    margin: 1.2em;
-    font-family: 'Andika', sans-serif;
-    background-image: url("../images/pigeon-background.JPEG"); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-color: #DDDDDD;
-  }
-  
-  main{
-    margin-bottom: 100px;
-  }
-  
-  h1{
-    color: #c12258;
-    font-size: 2em;
+html{
+  scroll-behavior: smooth;
+}
+
+h1{
+    font-family: 'Comic Neue', cursive;
+    color: #4BAAE8;
+    font-size: 28px;
     text-align: center;
     line-height: 2;
   }
   
-  
-  
-  caption{
-    margin:5px 0px;
-  }
-  
-  p{
-    padding-top: 15px;
-  }
-  
-  a{
-    font-size: 16px;
-    color: #B21F50;
-    text-decoration-line: underline; 
-    text-decoration-style: wavy;
-  }
-  
-  
-  table{
-      border-radius: 10px;
-      border: 2px solid #000000;
-      margin: auto;
-      
-  }
-  
-  .colhead{
-    background-color: #7e0820;
-    color: #FFFFFF;
-    min-width: 125px;
-    padding: 10px;
-    text-align: center;
+
+h2{
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+h3{
+  font-family: 'Comic Neue', cursive;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+p{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+  color: black;
+}
+nav li{
+  display:inline;
+  padding-right:20px;
+
+}
+
+nav a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none; 
+}
+
+nav a:hover{
+  text-decoration: underline
+}
+
+
+
+.skip a{
+  font-family: 'Noto Sans', sans-serif;
+  background: white;
+  left: 0;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+  position: absolute;
+  top: -40px;
+  visibility: hidden;
+  /*Your code here*/
+}
+
+.skip a:focus{
+  position: absolute;
+  top: 0px;
+  margin: auto;
+}
+
+*:focus{
+  border-style: solid;
+  border-width: 2px;
+}
+
+button{
+  font-family: 'Noto Sans', sans-serif;
+  display: block;
+  margin: 2% 2% auto auto;
+}
+/*Your Code Here*/
+/*Write selector/rule property to style all elements when in focus*/
+
+
+nav{
+  background-color: #ddd;
+  padding: 25px 0; 
+  text-align: left;
+}
+
+footer{
+  background-color: 4BAAE8;
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+}
+
+
+
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: auto auto auto auto auto;
+  grid-row-gap: 15px;
+}
+
+header{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+
+
+
+@media all and (min-width: 800px){
+  nav{
+    padding: 30px 0px;
+    text-align: right;
     vertical-align: middle;
-    text-transform: uppercase;
-    border-left: 2px #000000
+    /*Your code here:*/
   }
-  
-  .rowhead{
-    border-right: 2px solid #000000;
-    border-top: 2px solid #000000;
-    vertical-align: middle;
-    padding: 10px;
-    position: relative;
-  
+
+  .container{
+    grid-template-columns: 50px auto 500px auto 50px;
+    grid-template-rows: 400px 400px 400px 400px 400px;
+    /*Your code here:*/
   }
-  
-  td{
-    padding: 10px;
-    text-align: center;
-    border-top: 2px solid #000000;
-    vertical-align: middle;
-    border-width: 2px;
+
+ 
+}
+
+/*You do not need to modify any code below this line.
+It is included for accessibility to turn off animations
+and movement for people who have modified their 
+preferences to reduce motion.*/
+
+@media screen and (prefers-reduced-motion: reduce){
+  html{
+      scroll-behavior: auto; /* Removes scroll animation */
   }
-  
-  
-  
-  tr:nth-child(odd){
-    background-color: transparent;
+
+  .skip a{
+    -webkit-transition: none; /* sets to default setting */
+    transition: none;        /* sets to default setting */
+   }
+
+  /*Turn off parallax*/
+  header{
+    background-attachment: initial;
   }
-  tr:nth-child(even){
-    background-color:#D1D1D1;
-  }
-  tr:hover{
-    background-color: rgba(126, 8, 32, 0.25);
-  }
-  
-  
-  *:focus{ 
-    border: 3px dashed #417243; 
-  }
-  
-  thead tr:first-child th:first-child{
-    border-top-left-radius:10px;
-  }
-  
-  thead tr:first-child th:last-child{
-    border-top-right-radius:10px;
-  }
-  
-  tbody tr:last-child th:first-child{
-    border-bottom-left-radius:10px;
-  }
-  
-  tbody tr:last-child td:last-child{
-    border-bottom-right-radius:10px;
-  }
-  
-  
-  
-  footer{
-    width:100%;
-    background:#000000;
-    text-align:center;
-    color: #FFFFFF;
-    min-height: 75px;
-    position: fixed;
-    left:0;
-    bottom:0;
-  }
-  
