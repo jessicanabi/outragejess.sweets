@@ -1,0 +1,123 @@
+body{
+    font-size: 16px;
+    color: #000000;
+    margin: 1.2em;
+    font-family: 'Andika', sans-serif;
+    background-image: url("../images/pigeon-background.JPEG"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #DDDDDD;
+  }
+  
+  main{
+    margin-bottom: 100px;
+  }
+  
+  h1{
+    color: #c12258;
+    font-size: 2em;
+    text-align: center;
+    line-height: 2;
+  }
+  
+  
+  
+  caption{
+    margin:5px 0px;
+  }
+  
+  p{
+    padding-top: 15px;
+  }
+  
+  a{
+    font-size: 16px;
+    color: #B21F50;
+    text-decoration-line: underline; 
+    text-decoration-style: wavy;
+  }
+  
+  
+  table{
+      border-radius: 10px;
+      border: 2px solid #000000;
+      margin: auto;
+      
+  }
+  
+  .colhead{
+    background-color: #7e0820;
+    color: #FFFFFF;
+    min-width: 125px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    border-left: 2px #000000
+  }
+  
+  .rowhead{
+    border-right: 2px solid #000000;
+    border-top: 2px solid #000000;
+    vertical-align: middle;
+    padding: 10px;
+    position: relative;
+  
+  }
+  
+  td{
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #000000;
+    vertical-align: middle;
+    border-width: 2px;
+  }
+  
+  
+  
+  tr:nth-child(odd){
+    background-color: transparent;
+  }
+  tr:nth-child(even){
+    background-color:#D1D1D1;
+  }
+  tr:hover{
+    background-color: rgba(126, 8, 32, 0.25);
+  }
+  
+  
+  *:focus{ 
+    border: 3px dashed #417243; 
+  }
+  
+  thead tr:first-child th:first-child{
+    border-top-left-radius:10px;
+  }
+  
+  thead tr:first-child th:last-child{
+    border-top-right-radius:10px;
+  }
+  
+  tbody tr:last-child th:first-child{
+    border-bottom-left-radius:10px;
+  }
+  
+  tbody tr:last-child td:last-child{
+    border-bottom-right-radius:10px;
+  }
+  
+  
+  
+  footer{
+    width:100%;
+    background:#000000;
+    text-align:center;
+    color: #FFFFFF;
+    min-height: 75px;
+    position: fixed;
+    left:0;
+    bottom:0;
+  }
+  
