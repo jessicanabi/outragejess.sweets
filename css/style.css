@@ -1,7 +1,14 @@
 
+body{
+  background-color: #4BAAE8;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+  
 h1{
     font-family: 'Comic Neue', cursive;
-    color: #4BAAE8;
+    color: black;
     font-size: 28px;
     text-align: center;
   }
@@ -37,19 +44,17 @@ ul{
 }
 
 nav li a{
+  display: block;
   list-style-type: none;
   text-align: center;
   margin: 0;
-  padding: 10px;
+  padding: 10px, 12px;
   text-decoration: none;
 }
 
 
 nav li{
-  display:inline;
-  padding-right:20px;
-  margin: 0;
-
+  float: right
 }
 
 nav a{
@@ -84,7 +89,6 @@ nav a:hover{
   position: absolute;
   top: -40px;
   visibility: hidden;
-  /*Your code here*/
 }
 
 .skip a:focus{
@@ -106,6 +110,12 @@ button{
 /*Your Code Here*/
 /*Write selector/rule property to style all elements when in focus*/
 
+header{
+  position: absolute;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px; 
+}
 
 nav{
   background-color: #ddd;
@@ -126,34 +136,18 @@ footer{
   position: relative;
 }
 
-.header{
-  position: absolute;
-  text-align: center;
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 14px;
-}
 
-.container{
-  display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: auto auto auto auto auto;
-  grid-row-gap: 15px;
-}
+.main{
+	display: block;
+	padding: 5%;
+	background-color: #C2D7DA;
+  }
+
 
 
 
 @media all and (min-width: 800px){
-  nav{
-    padding: 30px 0px;
-    text-align: right;
-    vertical-align: middle;
-    /*Your code here:*/
-  }
-
-  .container{
-    grid-template-columns: 50px auto 500px auto 50px;
-    grid-template-rows: 400px 400px 400px 400px 400px;
-    /*Your code here:*/
+  
   }
 
  
@@ -163,18 +157,3 @@ footer{
 It is included for accessibility to turn off animations
 and movement for people who have modified their 
 preferences to reduce motion.*/
-
-@media screen and (prefers-reduced-motion: reduce){
-  html{
-      scroll-behavior: auto; /* Removes scroll animation */
-  }
-
-  .skip a{
-    -webkit-transition: none; /* sets to default setting */
-    transition: none;        /* sets to default setting */
-   }
-
-  /*Turn off parallax*/
-  header{
-    background-attachment: initial;
-  }
