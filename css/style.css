@@ -1,13 +1,9 @@
-html{
-  scroll-behavior: smooth;
-}
 
 h1{
     font-family: 'Comic Neue', cursive;
     color: #4BAAE8;
     font-size: 28px;
     text-align: center;
-    line-height: 2;
   }
   
 
@@ -16,6 +12,8 @@ h2{
   font-weight: bold;
   font-size: 20px;
   text-decoration: underline;
+  margin-top: 8%;
+  margin-bottom: 4%;
 }
 
 h3{
@@ -29,9 +27,28 @@ p{
   font-size: 18px;
   color: black;
 }
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  background-color: white;
+}
+
+nav li a{
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  text-decoration: none;
+}
+
+
 nav li{
   display:inline;
   padding-right:20px;
+  margin: 0;
 
 }
 
@@ -39,6 +56,15 @@ nav a{
   color: black;
   font-weight: bold;
   text-decoration: none; 
+}
+nav li a:hover{
+    background-color: #4BAAE8;
+    color: white;
+}
+
+nav a:active{
+  background: white;
+  padding: 10px;
 }
 
 nav a:hover{
@@ -88,7 +114,7 @@ nav{
 }
 
 footer{
-  background-color: 4BAAE8;
+  background-color: #4BAAE8;
   color: white;
   padding-top: 30px;
   text-align: center;
