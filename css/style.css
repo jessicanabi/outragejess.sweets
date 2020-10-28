@@ -35,7 +35,7 @@ p{
   color: black;
 }
 
-ul{
+nav ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -53,7 +53,7 @@ nav li a{
 }
 
 nav li{
-  float: right
+  float: right;
 }
 
 nav a{
@@ -109,21 +109,12 @@ button{
 /*Your Code Here*/
 /*Write selector/rule property to style all elements when in focus*/
 
-header{
-  background-attachment: fixed; 
-  background-image: url('../images/logo-1.jpeg');      
-  background-position: center;  
-  background-repeat: no-repeat; 
-  background-size: cover;       
+.header-txt{
+  text-align: center;
+  position: relative;
   color: white;
-  height: 400px;               
-
-  grid-column-start: 1;
-  grid-column-end: -1;
-  grid-row-start: 2;
-  grid-row-end: span 1;
 }
-
+  
 nav{
   background-color: #ddd;
   padding: 25px 0; 
@@ -139,21 +130,20 @@ footer{
 
 
 
-
-
-
 .main{
 	display: block;
-	padding: 5%;
-	background-color: #C2D7DA;
+	background-color: #4BAAE8;
   }
 
-
+.footer-contact a{
+  margin: 10%;
+  color: white
+}
 
 
 @media all and (min-width: 800px){
   
-  }
+  
 
  
 }
