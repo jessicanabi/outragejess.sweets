@@ -52,7 +52,7 @@ header{
 .navbar{
   list-style-type: none;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
@@ -61,11 +61,12 @@ header{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-padding-top: 2%;
 }
 
 .logo{
   display: inline-block;
+  left: 10px;
+  position: relative;
 }
 
 .menu-toggle{
@@ -82,7 +83,7 @@ nav ul{
   margin: 0;
   padding: 0;
   width: 50px;
-  background-color: white;
+  background-color: #4BAAE8;
 }
 
 nav li a{
@@ -91,6 +92,7 @@ nav li a{
   margin: 0;
   padding: 10px;
   text-decoration: none;
+  color: white;
 }
 
 nav li{
@@ -98,13 +100,12 @@ nav li{
 }
 
 nav li a:hover{
-    background-color: #4BAAE8;
+    background-color: #111;
     color: white;
 }
 
 nav a:active{
-  background: white;
-  color: white;
+  color: #757575;
   padding: 10px;
 }
 
