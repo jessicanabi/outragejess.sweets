@@ -8,8 +8,9 @@ body{
   
 h1{
     font-family: 'Comic Neue', cursive;
-    color: black;
-    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
     text-align: center;
   }
   
@@ -129,13 +130,14 @@ button{
 /*MAIN SECTION*/
 
 .header-txt{
+
   text-align: center;
   position: relative;
   font-size: 60px;
   color: white;
 }
   
-
+/*
 .mainphoto{
   background-attachment: fixed; 
   background-image: url('../images/logo-1.jpeg');      
@@ -145,12 +147,12 @@ button{
   color: white;
   height: 400px;               
 }
-
+*/
 
 .about, .gallery, .price, .order{
   font-family: 'Noto Sans', sans-serif;
   font-size: 18px;
-  color: #ddd;
+  color: white;
 }
 .aboutimage{
   width: 100%;
@@ -210,6 +212,7 @@ footer{
   padding: 10%;
   color: white;
 }
+
 .copy{
   text-align: center;
   margin-bottom: 2rem;
