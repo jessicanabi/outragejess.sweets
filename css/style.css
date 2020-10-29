@@ -42,7 +42,7 @@ header{
 
 .header-txt{
   text-align: center;
-  position: fixed;
+  position: relative;
   font-size: 60px;
   color: white;
 }
@@ -54,14 +54,8 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
 }
 
-.nav_links{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-}
 
 .logo{
   display: inline-block;
