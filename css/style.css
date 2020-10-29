@@ -41,6 +41,7 @@ header{
 }
 /*NAV BAR*/
 .navbar{
+  list-style-type: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -48,7 +49,6 @@ header{
 }
 
 .logo{
-  float: left;
   display: inline-block;
   width: 3%;
 }
@@ -61,7 +61,7 @@ header{
   cursor: pointer;
 }
 
-.navbar ul{
+nav ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -69,7 +69,7 @@ header{
   background-color: white;
 }
 
-.navbar li a{
+nav li a{
   display: block;
   list-style-type: none;
   text-align: center;
@@ -78,21 +78,21 @@ header{
   text-decoration: none;
 }
 
-.navbar li{
+nav li{
   float: right;
 }
 
-.navbar li a:hover{
+nav li a:hover{
     background-color: #4BAAE8;
     color: white;
 }
 
-.navbar a:active{
+nav a:active{
   background: white;
   padding: 10px;
 }
 
-.navbar a:hover{
+nav a:hover{
   text-decoration: underline
 }
 
@@ -130,7 +130,6 @@ button{
 /*MAIN SECTION*/
 
 .header-txt{
-
   text-align: center;
   position: relative;
   font-size: 60px;
