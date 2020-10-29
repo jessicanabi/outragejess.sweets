@@ -24,7 +24,7 @@ h2{
   margin-bottom: 4%;
 }
 
-h3{
+p{
   font-family: 'Comic Neue', cursive;
   font-size: 20px;
   text-decoration: underline;
@@ -43,8 +43,6 @@ header{
 .header-txt{
   text-align: center;
   position: absolute;
-  top: 50%;
-  left: 50%;
   font-size: 60px;
   color: white;
 }
@@ -62,7 +60,7 @@ header{
 
 .logo{
   display: inline-block;
-  left: 10px;
+  left: 2px;
   position: relative;
 }
 
