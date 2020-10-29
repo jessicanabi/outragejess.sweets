@@ -29,19 +29,36 @@ h3{
   text-decoration: underline;
 }
 
+/* HEADER*/
 header{
+  width: 100%;
 	font-family: 'Comic Neue', cursive;
-	font-size: 16px;
+  font-size: 18px;
+  position:absolute;
+  background-color: #4BAAE8;
 	z-index: 1;
 }
-
-p{
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 18px;
-  color: black;
+/*NAV BAR*/
+.navbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav ul{
+.logo{
+  width: 3%;
+}
+
+.menu-toggle{
+  color: #ddd;
+  font-size: 2rem;
+  position: relative;
+  top: 50%;
+  cursor: pointer;
+}
+
+.navbar ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -49,7 +66,7 @@ nav ul{
   background-color: white;
 }
 
-nav li a{
+.navber li a{
   display: block;
   list-style-type: none;
   text-align: center;
@@ -58,29 +75,28 @@ nav li a{
   text-decoration: none;
 }
 
-nav li{
+.navbar nav li{
   float: right;
 }
 
-nav a{
+.navbar a{
   color: black;
   font-weight: bold;
   text-decoration: none; 
 }
-nav li a:hover{
+.navbar li a:hover{
     background-color: #4BAAE8;
     color: white;
 }
 
-nav a:active{
+.navbar a:active{
   background: white;
   padding: 10px;
 }
 
-nav a:hover{
+.navbar a:hover{
   text-decoration: underline
 }
-
 
 
 .skip a{
@@ -112,8 +128,7 @@ button{
   display: block;
   margin: 2% 2% auto auto;
 }
-/*Your Code Here*/
-/*Write selector/rule property to style all elements when in focus*/
+/*MAIN SECTION*/
 
 .header-txt{
   text-align: center;
@@ -122,16 +137,6 @@ button{
   color: white;
 }
   
-nav{
-  background-color: #ddd;
-  padding: 25px 0; 
-  text-align: left;
-}
-
-.copy{
-  text-align: center;
-}
-
 
 .mainphoto{
   background-attachment: fixed; 
@@ -144,25 +149,44 @@ nav{
 }
 
 
-.main{
-	display: block;
-	background-color: #4BAAE8;
-  }
+.about, .gallery, .price, .order{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+  color: #ddd;
+}
+.aboutimage, .galleryimage, .priceimage, .orderimage{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
 
 
+
+/*FOOTER*/
 
 footer{
   background-color: #4BAAE8;
   color: white;
   padding-top: 30px;
   text-align: center;
+  position: relative;
 }
 
-.footer-contact a{
+.footer-contact{
   margin: 10%;
-  color: white
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
 }
 
+.footer-contact i{
+  padding: 10%;
+  color: white;
+}
+.copy{
+  text-align: center;
+  margin-bottom: 2rem;
+}
 /* For tablet*/
 @media all and (min-width: 600px){
   
