@@ -56,11 +56,7 @@ header{
 
 .header-txt{
   position: absolute;
-  display:flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	margin:10px;
-	overflow: hidden;
+  padding: 0 100px;
 }
   
 .logo-img{
