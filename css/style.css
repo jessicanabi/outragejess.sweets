@@ -51,7 +51,7 @@ header{
 
 
 .header-txt{
-  margin: 10px;
+  margin: auto;
 }
   
 
@@ -141,8 +141,11 @@ nav a:hover{
 
 button{
   font-family: 'Noto Sans', sans-serif;
+  font-size: 30px;
   display: inline-block;
   margin: 8% 8% auto auto;
+  background-color: black;
+  opacity: 80%;
 }
 
 /*MAIN SECTION*/
@@ -165,6 +168,11 @@ button{
   font-size: 18px;
   color: white;
   position: relative;
+}
+
+.about img, .gallery img, .price img, .order img{
+  width: 100%;
+  height: auto;
 }
 
 .view-about, .view-gal, .view-price, .view-order{
