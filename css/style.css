@@ -50,10 +50,16 @@ header{
 
 .header-txt{
   position: absolute;
-	margin: auto;
+  margin-top: 50px;
 	text-align: center;
 }
   
+.logo-img{
+  float: left;
+  position: absolute;
+  width: 8%;
+  height: 8%;
+}
 
 /*NAV BAR*/
 
@@ -65,13 +71,7 @@ header{
 }
 
 
-.logo-img{
-  float: left;
-  position: relative;
-  padding: 2%;
-  width: 8%;
-  height: 8%;
-}
+
 
 /*.menu-toggle{
   color: #ddd;
