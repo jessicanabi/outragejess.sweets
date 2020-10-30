@@ -32,7 +32,11 @@ header{
   font-size: 18px;
   position:absolute;
   background-color: #4BAAE8;
-	z-index: 1;
+  z-index: 1;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .welcome{
