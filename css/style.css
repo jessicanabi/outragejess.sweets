@@ -13,6 +13,7 @@ h1{
     color: white;
     font-size: 60px;
     text-align: center;
+    margin: 8%;
   }
 
 p{
@@ -29,7 +30,7 @@ h2{
   font-size: 32px;
   text-decoration: underline;
   color: white;
-  margin: 6%;
+  margin: 2%;
 }
 
 
