@@ -164,8 +164,20 @@ button{
   font-family: 'Noto Sans', sans-serif;
   font-size: 18px;
   color: white;
+  position: relative;
 }
 
+.view-about, .view-gal, .view-price, .view-order{
+  position: absolute;
+  bottom: 6px;
+  right: 10px;
+  background-color: gray;
+  color: white;
+  padding: 3px;
+}
+
+
+/*
 .aboutimage{
   width: "100%";
   height: auto;
@@ -200,6 +212,7 @@ button{
   display: flex;
   align-items: center;
 }
+*/
 
 
 
