@@ -26,9 +26,8 @@ p{
 h2{
   font-family: 'Comic Neue', cursive;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 32px;
   text-decoration: underline;
-  margin: 4%;
   color: white;
 }
 
@@ -51,8 +50,7 @@ header{
 
 .header-txt{
   position: absolute;
-	top: 10%;
-	left: 50%;
+	margin: auto;
 	text-align: center;
 }
   
