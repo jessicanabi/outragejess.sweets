@@ -47,11 +47,20 @@ header{
 }
 
 
+.navbar{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 .header-txt{
   position: absolute;
-  margin-top: 50px;
-	text-align: center;
+  display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin:10px;
+	overflow: hidden;
 }
   
 .logo-img{
@@ -63,12 +72,6 @@ header{
 
 /*NAV BAR*/
 
-.navbar{
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 
 
 
