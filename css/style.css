@@ -24,11 +24,6 @@ h2{
   margin-bottom: 4%;
 }
 
-p{
-  font-family: 'Comic Neue', cursive;
-  font-size: 20px;
-  text-decoration: underline;
-}
 
 /* HEADER*/
 header{
@@ -38,6 +33,11 @@ header{
   position:absolute;
   background-color: #4BAAE8;
 	z-index: 1;
+}
+
+.welcome{
+  display: block;
+  background-color: #4BAAE8;
 }
 
 .header-txt{
@@ -160,8 +160,8 @@ button{
 }
 
 .aboutimage{
-  width: 100%;
-  height: 80%;
+  width: "100%";
+  height: auto;
   background: url("..images/IMG-2134.jpg") center no-repeat;
   background-size: cover;
   display: flex;
@@ -170,7 +170,7 @@ button{
 
 .galleryimage{
   width: 100%;
-  height: 80%;
+  height: auto;
   background: url("..images/0AC03714-DAEF-476B-8711-A1032EDD2DDE.jpg") center no-repeat;
   background-size: cover;
   display: flex;
@@ -179,7 +179,7 @@ button{
 }
 .priceimage{
   width: 100%;
-  height: 80%;
+  height: auto;
   background: url("..images/logo-1.jpeg") center no-repeat;
   background-size: cover;
   display: flex;
@@ -187,7 +187,7 @@ button{
 }
  .orderimage{
   width: 100%;
-  height: 80%;
+  height: auto;
   background: url("..images/logo-1.jpeg") center no-repeat;
   background-size: cover;
   display: flex;
