@@ -51,9 +51,8 @@ header{
 
 .header-txt{
   position: absolute;
-	top: 50%;
+	top: 10%;
 	left: 50%;
-	transform: translate(-50%, -50%);
 	text-align: center;
 }
   
@@ -68,13 +67,12 @@ header{
 }
 
 
-.logo{
-  display: inline-block;
+.logo-img{
   float: left;
   position: relative;
   padding: 2%;
-	height:50%;
-	width:50%;
+  width: 8%;
+  height: 8%;
 }
 
 /*.menu-toggle{
@@ -149,10 +147,11 @@ button{
   font-family: 'Noto Sans', sans-serif;
   font-size: 30px;
   display: inline-block;
+  text-align: right;
   margin: 8% 8% auto auto;
   background-color: black;
-  color: white;
   opacity: 40%;
+  color: white;
 }
 
 /*MAIN SECTION*/
@@ -251,6 +250,14 @@ footer{
 .footer-contact i{
   padding: 10%;
   color: white;
+}
+
+div.footer-contact{
+	margin-bottom: 30px;
+}
+
+.footer-contact a:active, .footer-contact a:hover{
+	color: white;
 }
 
 .copy{
