@@ -293,7 +293,7 @@ div.footer-contact{
   .user-info {
     display: grid;
     position: relative;
-    padding-top: 6%;
+    padding-top: 15%;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: repeat(3, auto);
     grid-column: 1 / -1;
