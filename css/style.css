@@ -45,7 +45,8 @@ header{
   display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	justify-content: center;
+  justify-content: center;
+  padding: 3%;
 }
 
 
@@ -60,17 +61,24 @@ header{
 
 .header-txt{
   position: relative;
-  padding-top: 20%;
+  padding-top: 10%;
 	padding-inline-start: 5%;
 	padding-inline-end: 5%;
   background-color: #4BAAE8;
 }
-  
+
+.header-txt img{
+  width: 20%;
+  height: auto;
+  align-items: center;
+  position: relative;
+}
+
 .logo-img{
   float: left;
   display: inline;
-  width: 8%;
-  height: 8%;
+  width: 2%;
+  height: 2%;
 }
 
 /*NAV BAR*/
@@ -160,19 +168,6 @@ button{
 
 /*MAIN SECTION*/
 
-
-/*
-.mainphoto{
-  background-attachment: fixed; 
-  background-image: url('../images/logo-1.jpeg');      
-  background-position: center;  
-  background-repeat: no-repeat; 
-  background-size: 100%;       
-  color: white;
-  height: 400px;               
-}
-*/
-
 .about{
   display:flex;
 	flex-direction: column;
@@ -185,11 +180,13 @@ button{
 }
 
 .gallery, .price, .order{
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 18px;
-  color: white;
-  margin-right: 10px;
-	margin-left: 10px;
+  display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	overflow: hidden;
+  align-items: center;
+  position: relative;
+  padding: 2px;
 }
 
 .about img, .gallery img, .price img, .order img{
@@ -198,7 +195,7 @@ button{
 }
 
 .view-about, .view-gal, .view-price, .view-order{
-  position: absolute;
+  position: relative;
   bottom: 6px;
   right: 10px;
   background-color: gray;
