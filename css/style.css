@@ -67,11 +67,14 @@ header{
   background-color: #4BAAE8;
 }
 
-.header-txt img{
+.header-name-img{
   width: 20%;
   height: auto;
   align-items: center;
-  position: relative;
+  position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .logo-img{
