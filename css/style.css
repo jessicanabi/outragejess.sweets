@@ -6,6 +6,8 @@ body{
   padding: 0;
   color: white;
 }
+
+
   
 h1{
     font-family: 'Comic Neue', cursive;
@@ -290,7 +292,7 @@ div.footer-contact{
   
   .user-info {
     display: grid;
-    padding: 10px;
+    padding-top: 6%;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: repeat(3, auto);
     grid-column: 1 / -1;
