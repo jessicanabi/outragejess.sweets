@@ -56,14 +56,7 @@ header{
   justify-content: space-between;
 }
 
-.nav-links{
-  display: flex;
-	flex-direction: row;
-  justify-content: space-between;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
 
 .header-txt{
   position: absolute;
@@ -183,11 +176,10 @@ button{
   display:flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	margin:10%;
 	overflow: hidden;
 	align-items: center;
   position: relative;
-  margin: 10px;
+  margin-top: 50%;
   padding: 10px;
 
 }
