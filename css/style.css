@@ -39,7 +39,7 @@ header{
   width: 100%;
 	font-family: 'Comic Neue', cursive;
   font-size: 18px;
-  position:relative;
+  position:absolute;
   background-color: #4BAAE8;
   z-index: 1;
   display: flex;
@@ -68,7 +68,7 @@ header{
   
 .logo-img{
   float: left;
-  position: relative;
+  display: inline;
   width: 8%;
   height: 8%;
 }
