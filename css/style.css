@@ -67,7 +67,9 @@ header{
 
 .header-txt{
   position: absolute;
-  padding: 0 100px;
+  padding: 30%;
+  margin: 10%;
+  background-color: #4BAAE8;
 }
   
 .logo-img{
