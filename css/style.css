@@ -280,13 +280,56 @@ div.footer-contact{
   text-align: center;
   margin-bottom: 2rem;
 }
+
+.insta-feed {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  width: 100%;
+  }
+  
+  .user-info {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(3, auto);
+    grid-column: 1 / -1;
+  }
+  .user-stats {
+      grid-column: 1 / -1;
+      grid-row: 3;
+      display: flex;
+      justify-content: space-around;
+    }
+  
+ 
+
+/*For Desktop*/
+@media only screen and (min-width: 768px){
+  .user-info {
+    grid-template-columns: 1fr 2fr;
+    grid-column: auto;
+    }
+  .user-stats {
+    grid-column: auto;
+    grid-row: auto;
+    display: block;
+    }
+  }
+  .avatar {
+    width: 152px;
+    grid-row: 1 / -1;
+  }
+
+
+
+
+
+}
+
 /* For tablet*/
 @media all and (min-width: 600px){
 
-  
-
- 
-}
 
 
 
