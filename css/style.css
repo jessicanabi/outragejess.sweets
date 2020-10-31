@@ -177,18 +177,26 @@ button{
 }
 */
 
-.about, .gallery, .price, .order{
+.about{
+  display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin:10%;
+	overflow: hidden;
+	align-items: center;
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+
+}
+
+.gallery, .price, .order{
   font-family: 'Noto Sans', sans-serif;
   font-size: 18px;
   color: white;
   position: relative;
-  display:flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	margin:10px;
-	overflow: hidden;
-	align-items: center;
-
+  margin-right: 10px;
+	margin-left: 10px;
 }
 
 .about img, .gallery img, .price img, .order img{
