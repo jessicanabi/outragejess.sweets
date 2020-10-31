@@ -182,6 +182,13 @@ button{
   font-size: 18px;
   color: white;
   position: relative;
+  display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin:10px;
+	overflow: hidden;
+	align-items: center;
+
 }
 
 .about img, .gallery img, .price img, .order img{
