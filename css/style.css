@@ -70,6 +70,7 @@ header{
   width: 20%;
   height: auto;
   align-items: center;
+  position: relative;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -78,8 +79,8 @@ header{
 .logo-img{
   float: left;
   display: inline;
-  width: 2%;
-  height: 2%;
+  width: 4%;
+  height: 4%;
 }
 
 /*NAV BAR*/
@@ -184,7 +185,8 @@ button{
   display:flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	overflow: hidden;
+  overflow: hidden;
+  align-items: center;
   position: relative;
   padding: 2px;
 }
@@ -195,7 +197,7 @@ button{
 }
 
 .view-about, .view-gal, .view-price, .view-order{
-  position: relative;
+  position: absolute;
   bottom: 6px;
   right: 10px;
   background-color: gray;
