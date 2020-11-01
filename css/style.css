@@ -165,9 +165,8 @@ button{
   font-size: 18px;
   display: block;
   text-align: right;
-  /* margin: 8% 8% auto auto; */
-  background-color: black;
-  opacity: 40%;
+  float: right;
+  background-color: #757575;
   color: white;
 }
 
