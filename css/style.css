@@ -253,25 +253,20 @@ button{
 footer{
   background-color: #4BAAE8;
   color: white;
-  padding-top: 30px;
+  padding-top: 15px;
   text-align: center;
   position: relative;
 }
 
 .footer-contact{
-  margin: 10%;
   display: flex;
   justify-content: center;
   overflow: hidden;
+  padding: 20px;
 }
 
 .footer-contact i{
-  padding: 10%;
   color: white;
-}
-
-div.footer-contact{
-	margin-bottom: 30px;
 }
 
 .footer-contact a:active, .footer-contact a:hover{
