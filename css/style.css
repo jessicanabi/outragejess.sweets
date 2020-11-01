@@ -162,10 +162,10 @@ nav a:hover{
 
 button{
   font-family: 'Noto Sans', sans-serif;
-  font-size: 30px;
+  font-size: 18px;
   display: inline-block;
   text-align: right;
-  margin: 8% 8% auto auto;
+  /* margin: 8% 8% auto auto; */
   background-color: black;
   opacity: 40%;
   color: white;
@@ -194,15 +194,20 @@ button{
   padding: 2px;
 }
  */
- 
+
 .about img{
   grid-row: 1 / 2;
-  grid-column: 1 / 2;
-
+  grid-column: 1 / auto;
 }
 
+/* .view-about,{
+  grid-row: 1 / 2;
+  grid-column: 1 / auto;
 
-
+}
+.view-price, .view-order{
+  
+ */
 .gallery img{
   grid-row: 1 / 2;
 	grid-column: 2/ 3;
@@ -217,18 +222,21 @@ button{
 .order img{
   grid-row: 2 / 2;
   grid-column: 2/ 3;
-
 }
 
-
-.view-about, .view-gal, .view-price, .view-order{
+/* 
+.view-order{
+  grid-row: 2 / 2;
+  grid-column: 2/ 3;
   position: absolute;
   bottom: 6px;
   right: 10px;
   background-color: gray;
   color: white;
-  padding: 3px;
-}
+
+} 
+
+} */
 
 
 
@@ -311,12 +319,7 @@ div.footer-contact{
     grid-row: 1 / -1;
   }
 
-  .about{
-  display: grid;
-	grid-template-rows: repeat(2,auto);
-  grid-template-columns: repeat(2, auto);
-  grid-gap: 8px;
-	background-color: #FFF;
+ 
 
   }
 
