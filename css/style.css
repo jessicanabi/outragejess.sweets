@@ -163,7 +163,7 @@ nav a:hover{
 button{
   font-family: 'Noto Sans', sans-serif;
   font-size: 18px;
-  display: inline-block;
+  display: block;
   text-align: right;
   /* margin: 8% 8% auto auto; */
   background-color: black;
@@ -197,7 +197,9 @@ button{
 
 .about img{
   grid-row: 1 / 2;
-  grid-column: 1 / auto;
+  grid-column: 1 / 2;
+  width: 100%;
+  height: auto;
 }
 
 /* .view-about,{
@@ -210,18 +212,24 @@ button{
  */
 .gallery img{
   grid-row: 1 / 2;
-	grid-column: 2/ 3;
+  grid-column: 2/ 3;
+  width: 100%;
+  height: auto;
   }
 
 .price img{
   grid-row: 2 / 2;
   grid-column: 2/ 2;
+  width: 100%;
+  height: auto;
 }
 
 
 .order img{
   grid-row: 2 / 2;
   grid-column: 2/ 3;
+  width: 100%;
+  height: auto;
 }
 
 /* 
