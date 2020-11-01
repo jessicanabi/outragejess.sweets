@@ -267,6 +267,7 @@ footer{
 
 .footer-contact i{
   color: white;
+  padding: 20px;
 }
 
 .footer-contact a:active, .footer-contact a:hover{
