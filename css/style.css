@@ -82,6 +82,7 @@ header{
 .logo-img{
   float: left;
   display: inline;
+  margin-right: 50px;
   width: 4%;
   height: 4%;
 }
@@ -209,6 +210,8 @@ button{
 .view-price, .view-order{
   
  */
+
+
 .gallery img{
   grid-row: 1 / 2;
   grid-column: 2/ 3;
@@ -229,6 +232,10 @@ button{
   grid-column: 2/ 3;
   width: 100%;
   height: auto;
+}
+
+.about img, .gallery img, .price img, .order img{
+
 }
 
 /* 
