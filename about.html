@@ -3,40 +3,50 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="stylesheets/html5reset.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <link rel="shortcut icon" type="image/jpeg" href="images/logo-1.jpeg"/>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <title>OutrageJESS Sweets</title>
   </head>
   <body>
-    <div class="skip"><a href="#about">Skip to Main Content</a></div>
-    <header>
+      <div class="skip"><a href="#main">
+      <header>
       <div class="container">
-      <div class="nav">
-        <nav>
-          <ul>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="pricing.html">Prices</a></li>
-            <li><a href="order.html">Order</a></li>
-            <li class="currentpage"><a href="about.html">Home</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+        <nav class="navbar">
+          <div class="menu-toggle"> 
+            <i class="fas fa-bars"></i> 
+            <i class="fas fa-times"></i>
+          </div>
+          <div class="logo-img">
+            <img src="images/logo-1.jpeg" alt="logo"> 
+          </div>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="current"><a href="about.html">About Me</a></li>
+              </ul>
+          </nav>
+        </div>
+      </header>
+
+    
 
    
 
-<main class="main">
-    <div class="about me">
-      
-      <a name="about"></a>
+
+  <div class="about-me" id="about">
       <h2>About Me</h2>
-      <p>Learn more about me and my experience running OutrageJESS Sweets.</p>
-      <button onclick="location.href='https://jessicanabi.github.io/about.html'" type="button">
-        About Me</button>
-      </div>
+      
+      <p>I am currently a junior at the University of Michigan in the School of Information, and I am also on the Michigan Ross Cappo MArketing/Sales Track.</p>
+      <p>Recently, I noticed an untapped market; there was nowhere in my community to buy fun, college themed cakes or cupcakes to congratulate high school seniors when they received college acceptances. So, I started my own business where I baked customized cupcakes and cakes.</p>
+      <p>I rebranded my baking business during Covid in March 2020. I have expanded into a higher-end cake market and created my product innovation, OutrageJESS Cake Cups.Learn more about me and my experience running OutrageJESS Sweets.</p>
+      
+  </div>
 
       <div class="about-image">
         <img src="images/logo-1.jpeg" alt="decorative" width="300" height="200"/>
@@ -44,15 +54,16 @@
     
     
 
-  </main>
-
-    <footer>
-      <a href="https://www.instagram.com/outragejess.sweets/" target="_blank" aria-label="Instagram Profile"><i aria-hidden="true" class="fab fa-instagram fa-2x" title="Instagram Profile"></i></a>
-      <a href="https://www.facebook.com/outragejess.sweets/" target="_blank" aria-label="Facebook Profile"><i aria-hidden="true" class="fab fa-facebook fa-2x" title="Facebook Profile"></i></a>
-      <a href="mailto:outragejess.sweets@gmail.com" target="_blank" aria-label="Email contact"><i aria-hidden="true" class="far fa-envelope fa-2x" title="Email contact"></i></a>
-      <p>OutrageJESS Sweets<br/>
+  <footer>
+      <div class="footer-contact">
+        <a href="https://www.instagram.com/outragejess.sweets/" target="_blank" aria-label="Instagram Profile"><i aria-hidden="true" class="fab fa-instagram" title="Instagram Profile"></i></a>
+        <a href="https://www.facebook.com/outragejess.sweets/" target="_blank" aria-label="Facebook Profile"><i aria-hidden="true" class="fab fa-facebook-f" title="Facebook Profile"></i></a>
+        <a href="mailto:outragejess.sweets@gmail.com" target="_blank" aria-label="Email contact"><i aria-hidden="true" class="far fa-envelope" title="Email contact"></i></a>
+      </div>
+      <div class="copy">
+        <p>OutrageJESS Sweets<br/>
         &copy; Jessica Nabi - 2020</p>
+      </div>
     </footer>
-    
   </body>
 </html>
