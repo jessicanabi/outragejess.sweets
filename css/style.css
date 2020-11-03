@@ -42,6 +42,13 @@ h3{
   text-align: center;
 }
 
+h4{
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: underline;
+  color: white;
+}
 
 /* HEADER*/
 header{
@@ -83,7 +90,7 @@ nav{
 } */
 
 .header-txt{
-  padding-top: 20%;
+  top: 20%;
 	padding-inline-start: 5%;
 	padding-inline-end: 5%;
   color: #111;
@@ -93,7 +100,7 @@ nav{
   width: 30%;
   height: auto;
   align-items: center;
-  position: relative;
+  position: absolute;
 	top: 50%;
 	left: 50%;
   transform: translate(-50%, -50%);
@@ -224,8 +231,7 @@ button{
 /*MAIN SECTION*/
 .pageinfo{
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  justify-self: center;
+  grid-template-rows: repeat(2, auto);
   align-content: center;
   justify-content: center;
   grid-gap: 5px;
@@ -239,12 +245,12 @@ button{
 
 .about img, .gallery img, .price img, .order img{
   width: 100%;
-  height: 200px;
+  height: auto;
   padding: 3px;
 }
 
 .about .view-about{
-  position: absolute;
+  position: relative;
   bottom: 6px;
   right: 10px;
   background-color: gray;
@@ -252,6 +258,16 @@ button{
   padding: 3px;
 }
 
+.gallery .view-gal{
+  position: relative;
+  bottom: 6px;
+  right: 10px;
+  background-color: gray;
+  color: white;
+  padding: 3px;
+}
+
+}
 /* .view-gal, .view-price, .view-order{
 
 } */
