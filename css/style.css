@@ -91,7 +91,7 @@ nav{
 
 .header-txt{
   top: 20%;
-	padding-inline-start: 5%;
+	padding-inline-start: 8%;
 	padding-inline-end: 5%;
   color: #111;
 }
@@ -100,10 +100,7 @@ nav{
   width: 30%;
   height: auto;
   align-items: center;
-  position: relative;
-	top: 50%;
-	left: 50%;
-  transform: translate(-50%, -50%);
+  position: absolute;;
   padding: 6%;
 }
 
