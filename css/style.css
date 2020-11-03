@@ -54,7 +54,6 @@ h4{
 header{
 	font-family: 'Comic Neue', cursive;
   font-size: 14px;
-  position:absolute;
   background-color: #4BAAE8;
   z-index: 1;
   display: flex;
