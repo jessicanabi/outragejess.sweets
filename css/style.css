@@ -63,10 +63,15 @@ nav{
   justify-content: space-between;
 }
 
-
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: baseline;
+}
 
 .header-txt{
-  position: relative;
   padding-top: 20%;
 	padding-inline-start: 5%;
 	padding-inline-end: 5%;
@@ -108,7 +113,7 @@ nav{
 	border: none;
   background-color: #C2D7DA;
 }
-/*NAV BAR*/
+/*NAV BAR
 
 
 
@@ -126,6 +131,7 @@ nav{
 .show .fa-bars {
   display: none; 
 }
+*/
 nav ul{
   list-style-type: none;
   margin: 0;
