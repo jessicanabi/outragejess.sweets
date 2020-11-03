@@ -7,6 +7,10 @@ body{
   color: white;
 }
 
+.main-header{
+  font-size: 20px;
+  padding-top: 4%;
+}
 
   
 h1{
@@ -41,9 +45,8 @@ h3{
 
 /* HEADER*/
 header{
-  width: 100%;
 	font-family: 'Comic Neue', cursive;
-  font-size: 10px;
+  font-size: 14px;
   position:absolute;
   background-color: #4BAAE8;
   z-index: 1;
@@ -71,13 +74,13 @@ nav{
   justify-content: space-between;
 }
 
-.nav-links {
+/* .nav-links {
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: baseline;
-}
+} */
 
 .header-txt{
   padding-top: 20%;
@@ -87,24 +90,23 @@ nav{
 }
 
 .header-name-img{
-  width: 50%;
+  width: 30%;
   height: auto;
   align-items: center;
   position: relative;
 	top: 50%;
 	left: 50%;
   transform: translate(-50%, -50%);
-  padding-top: 6%;
+  padding: 6%;
 }
 
 .logo-img{
   float: left;
-  margin-right: 50px;
-  width: 4%;
-  height: 4%;
+  width: 8%;
+  height: 8%;
 }
 
-#side-menu{
+/* #side-menu{
 	display: none;
 	width: 100%;
 }
@@ -120,7 +122,7 @@ nav{
 	margin-right: 2%;
 	border: none;
   background-color: #C2D7DA;
-}
+} */
 /*NAV BAR
 
 
@@ -177,6 +179,7 @@ nav a:hover{
 
 
 .current{
+  background-color: #757575;
   color: black;
   text-decoration: underline;
 }
@@ -208,33 +211,39 @@ nav a:hover{
 button{
   font-family: 'Noto Sans', sans-serif;
   font-size: 18px;
-  display: block;
   text-align: right;
   background-color: #757575;
   color: white;
 }
 
+.order-button{
+  margin-bottom: 20px;
+  align-items: center;
+}
 
 /*MAIN SECTION*/
 .pageinfo{
-  display:flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	overflow: hidden;
-  align-items: center;
-  position: relative;
-  margin-top: 15px;
-
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-self: center;
+  align-content: center;
+  justify-content: center;
+  grid-gap: 5px;
+  padding:6px;
 }
+
+.about img:hover .view-about {
+  filter: opacity(0.5)
+}
+
 
 .about img, .gallery img, .price img, .order img{
   width: 100%;
-  height: 800px;
-  position: relative;
+  height: 200px;
   padding: 3px;
 }
 
-.view-about, .view-gal, .view-price, .view-order{
+.about .view-about{
   position: absolute;
   bottom: 6px;
   right: 10px;
@@ -243,8 +252,15 @@ button{
   padding: 3px;
 }
 
+/* .view-gal, .view-price, .view-order{
 
-
+} */
+ul.descriptions{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	padding-left: 12px;
+	list-style-type: square;
+}
 /*FOOTER*/
 
 footer{
@@ -275,6 +291,7 @@ footer{
   text-align: center;
   margin-bottom: 2rem;
 }
+
 
 .insta-feed {
   display: grid;
