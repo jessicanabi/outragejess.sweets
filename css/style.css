@@ -74,7 +74,7 @@ nav{
 }
 
 .header-name-img{
-  width: 20%;
+  width: 50%;
   height: auto;
   align-items: center;
   position: relative;
@@ -160,9 +160,11 @@ nav a:hover{
   text-decoration: underline
 }
 
-nav li .current{
-	text-decoration: underline;
-	padding: 15px;
+
+
+.current{
+  color: black;
+  text-decoration: underline;
 }
 
 .skip a{
