@@ -114,15 +114,18 @@ nav{
 
 
 
-/*.menu-toggle{
+.menu-toggle{
   color: #ddd;
   font-size: 2rem;
   position: relative;
   top: 50%;
   cursor: pointer;
   z-index: 100;
-} */
-
+  float: right;
+} 
+.show .fa-bars {
+  display: none; 
+}
 nav ul{
   list-style-type: none;
   margin: 0;
@@ -191,10 +194,10 @@ button{
   font-size: 18px;
   display: block;
   text-align: right;
-  float: right;
   background-color: #757575;
   color: white;
 }
+
 
 /*MAIN SECTION*/
 .pageinfo{
@@ -209,12 +212,12 @@ button{
 }
 
 .about img, .gallery img, .price img, .order img{
-  width: 100%;
-  height: auto;
+  width: 100px;
+  height: 100px;
 }
 
 .view-about, .view-gal, .view-price, .view-order{
-  position: absolute;
+  position: relative;
   bottom: 6px;
   right: 10px;
   background-color: gray;
@@ -296,10 +299,10 @@ footer{
 }
 
 
-  .user-info {
-    grid-template-columns: 1fr 2fr;
-    grid-column: auto;
-    }
+.user-info {
+  grid-template-columns: 1fr 2fr;
+  grid-column: auto;
+  }
 
 .about img{
   grid-row: 1 / 2;
@@ -351,7 +354,7 @@ header{
 }
 
 
-
+.view-menu
 
 /* .view-about,{
   grid-row: 1 / 2;
