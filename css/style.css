@@ -69,10 +69,6 @@ header{
 }
 */
 
-.about-text{
-  padding-top: 20px;
-}
-
 nav{
   list-style-type: none;
   display: flex;
@@ -99,7 +95,7 @@ nav{
   width: 30%;
   height: auto;
   align-items: center;
-  position: absolute;;
+  position: relative;
   padding: 6%;
 }
 
@@ -263,7 +259,7 @@ button{
   padding: 3px;
 }
 
-}
+
 /* .view-gal, .view-price, .view-order{
 
 } */
