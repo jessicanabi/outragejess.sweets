@@ -212,7 +212,8 @@ button{
   position: absolute;
   /* -webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%); */
-	transform: translate(-10px, -50px);
+  transform: translate(-10px, -50px);
+  background-color: #757575;
 }
 
 .order-button{
