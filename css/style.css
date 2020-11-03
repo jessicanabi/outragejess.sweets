@@ -86,17 +86,14 @@ nav{
 
 .header-txt{
   top: 20%;
-	padding-inline-start: 8%;
-	padding-inline-end: 5%;
   color: #111;
+  padding: 4px;
 }
 
-.header-name-img{
-  width: 30%;
+.header-text img{
+  width: 40%;
   height: auto;
   align-items: center;
-  position: relative;
-  padding: 6%;
 }
 
 .logo-img{
@@ -210,9 +207,12 @@ nav a:hover{
 button{
   font-family: 'Noto Sans', sans-serif;
   font-size: 18px;
-  text-align: right;
-  background-color: #757575;
   color: white;
+  left:69%;
+  position: absolute;
+  /* -webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%); */
+	transform: translate(-10px, -50px);
 }
 
 .order-button{
@@ -241,7 +241,7 @@ button{
   padding: 3px;
 }
 
-.about .view-about{
+/* .about .view-about{
   position: absolute;
   top: 63%;
   right: 10px;
@@ -259,7 +259,7 @@ button{
   padding: 3px;
 }
 
-
+ */
 /* .view-gal, .view-price, .view-order{
 
 } */
@@ -309,6 +309,10 @@ footer{
   height: auto;
   }
   
+  .insta-feed img{
+  width: 120px;
+  height: 120px;
+  }
   .user-info {
     display: grid;
     position: relative;
@@ -317,13 +321,7 @@ footer{
     grid-template-rows: repeat(3, auto);
     grid-column: 1 / -1;
   }
-  .user-stats {
-      grid-column: 1 / -1;
-      grid-row: 3;
-      display: flex;
-      justify-content: space-around;
-
-    }
+  
   
  
 .sumbit{
