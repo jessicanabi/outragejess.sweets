@@ -248,7 +248,7 @@ button{
 
 .about .view-about{
   position: absolute;
-  bottom: 6px;
+  top: 63%;
   right: 10px;
   background-color: gray;
   color: white;
