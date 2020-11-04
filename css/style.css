@@ -61,13 +61,11 @@ header{
   justify-content: space-between;
 }
 
-/*
+
 .main-header{
-  position: relative;
-	padding-inline-start: 5%;
-	padding-inline-end: 5%;
+  font-size: 28px;
 }
-*/
+
 
 nav{
   list-style-type: none;
