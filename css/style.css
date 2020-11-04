@@ -305,7 +305,7 @@ footer{
   width: 120px;
   height: 120px;
   }
-  .user-info {
+  /* .user-info {
     display: grid;
     position: relative;
     padding-top: 15%;
@@ -318,7 +318,7 @@ footer{
   display: none;
   color: white;
   text-decoration: underline;
-}
+} */
   
  .about-pg{
    border: white;
