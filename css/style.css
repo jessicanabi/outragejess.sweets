@@ -90,6 +90,8 @@ nav{
   width: 40%;
   height: auto;
   align-items: center;
+  -webkit-transform: translate(120px, 0px);
+	-ms-transform: translate(120px, 0px);
   transform: translate(120px, 0px);
 }
 
@@ -207,8 +209,8 @@ button{
   color: white;
   left:69%;
   position: absolute;
-  /* -webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%); */
+  -webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
   transform: translate(-10px, -50px);
   background-color: #757575;
 }
@@ -319,14 +321,12 @@ footer{
 color:white;
 }
  .about-pg{
-   margin-right: 8px;
-   margin-left: 8px;
+   margin: 0px 40px;
    border: 4px solid white;
+   width: 90%;
  }
 
-.sumbit{
-  padding: 3%;
-}
+
 
 /*For Desktop*/
 @media only screen and (min-width: 768px){
@@ -390,14 +390,12 @@ header{
   width: 100%;
 	font-family: 'Comic Neue', cursive;
   font-size: 18px;
-  position:absolute;
   background-color: #4BAAE8;
   z-index: 1;
   display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
   justify-content: center;
-  padding: 3%;
 }
 
 
