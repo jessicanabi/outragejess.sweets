@@ -231,10 +231,6 @@ button{
   padding:6px;
 }
 
-.about img:hover .view-about {
-  filter: opacity(0.5)
-}
-
 
 .about img, .gallery img, .price img, .order img{
   width: 100%;
@@ -265,9 +261,9 @@ button{
 
 } */
 ul.descriptions{
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Comic Neue', cursive;
 	font-size: 14px;
-	padding-left: 12px;
+	padding-left: 20px;
 	list-style-type: square;
 }
 /*FOOTER*/
