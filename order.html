@@ -36,22 +36,22 @@
           <div class='row'>
               <div class='col-md-12'>
                   <h2>Order Form</h2>
-                  <form>
+                  <form action="https://formspree.io/f/meqpkvke" method="POST">
                       <div class='form-group'>
-                          <label for='exampleInputName'>First and Last Name:</label>
-                          <input type='name' class='form-control' id='exampleInputName' placeholder=''><br>
+                          <label for='exampleInputName'>First</label><br>
+                          <input type='text' name="first" class='form-control' id='exampleInputName' placeholder=''><br>
+                          <label for='exampleInputLast'>Last Name:</label><br>
+                          <input type='text' name="Last"class='form-control' id='exampleInputLast' placeholder=''><br>
                           <label for='email'>Email:</label><br>
-                          <input type='Email' class='form-control' placeholder='you@youremail.com'><br>
+                          <input type='Email' name="email"class='form-control' placeholder='you@youremail.com'><br>
                           <label for='address'>Street Address:</label><br>
-                          <input type='address' class='form-control' placeholder=''><br>
+                          <input type='text' name="'address"class='form-control' placeholder=''><br>
                           <label for='city' class='city'>City:</label><br>
-                          <input type='city' class='form-control city' placeholder=''><br>
+                          <input type='text' name="city" class='form-control city' placeholder=''><br>
                           <label for='state' class='state'>State:</label><br>
-                          
-
-                          <input type='state' class='form-control state' placeholder=''><br>
-                          <label for='phone'>Phone Number:</label>
-                          <input type='Phone' class='form-control' placeholder='555-555-5555'>
+                          <input type='text' name="state" class='form-control state' placeholder=''><br>
+                          <label for='phone'>Phone Number:</label><br>
+                          <input type='Phone' name="Phone number" class='form-control' placeholder='555-555-5555'>
                       </div>
 
                       <div>
@@ -59,16 +59,16 @@
                               </div>
                               <div class="radio">
                                   <label>
-                                      <input type='radio' name='radios' value='Yes'>Yes
+                                      <input type='radio' name='yes' value='Yes'>Yes
 
                                   </label>
 
                               </div>
                               <div class="radio">
                                   <label>
-                                      <input type='radio' name='radios' value='Yes'>No
+                                      <input type='radio' name='no' value='Yes'>No
                                   </label>
-                                </form>
+                                
                                 
                               </div>
                           </div>
@@ -77,8 +77,9 @@
                     <br>
                   </div>
                   <div class="submit">
-                    <button type='submit'>Submit</button>
+                    <input type='submit'></input>
                   </div>
+                </form>
                 
 
                 
