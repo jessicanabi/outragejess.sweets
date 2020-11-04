@@ -238,6 +238,7 @@ button{
   padding: 3px;
 }
 
+
 /* .about .view-about{
   position: absolute;
   top: 63%;
@@ -319,11 +320,21 @@ footer{
     grid-column: 1 / -1;
   }
   
+.user-info p{
+  display: none;
+  color: white;
+  text-decoration: underline;
+}
   
- 
+ .about-pg{
+   border: white;
+   padding: 6px;
+ }
+
 .sumbit{
   padding: 3%;
 }
+
 /*For Desktop*/
 @media only screen and (min-width: 768px){
   .pageinfo{
