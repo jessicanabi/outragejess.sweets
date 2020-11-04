@@ -323,7 +323,7 @@ color:white;
  
 
  .parallaxabout {
-  background-image: url("images/IMG_2134.jpg");
+  background-image: url("../images/IMG_2134.jpg");
   background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
