@@ -11,56 +11,80 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <title>OutrageJESS Sweets</title>
   </head>
-  <body>
-    <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
-    <div class="container">
-      <nav class="navbar">
-        <div class="menu-toggle"> 
-          <i class="fas fa-bars"></i> 
-          <i class="fas fa-times"></i>
-        </div>
-        <div class="logo-img">
-          <img src="images/logo-1.jpeg" alt="logo"> 
-        </div>
-            <ul>
-              <li><a href="order.html">Order</a></li>
-              <li><a href="pricing.html">Pricing</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
-              <li><a href="about.html">About Me</a></li>
-              <li class="current"><a href="index.html">Home</a></li>
-            </ul>
-        </nav>
-      </div>
+      <div class="skip"><a href="#form">Skip to Main Content</a></div>
+      
+        <nav>
+          <div class="logo-img">
+            <img src="images/logo-1.jpeg" alt="logo"> 
+          </div>
+              <ul>
+                <li class="current"><a href="order.html">Order</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li ><a href="about.html">About Me</a></li>
+                <li><a href="index.html">Home</a></li>
+              </ul>
+          </nav>
     </header>
    
 
-  
 
-    <form>
-      <label for="name">Name:</label><br>
-      <input type="text" id="name" name="name"><br>
-      <label for="email">Email:</label><br>
-      <input type="text" id="email" name="email"><br>
+<body>
+  <div class='background' id="form">
+      <div class='container pInfo'>
+          <div class='row'>
+              <div class='col-md-12'>
+                  <h3>Your Info</h3>
+                  <form>
+                      <div class='form-group'>
+                          <label for='exampleInputName'>First and Last Name</label>
+                          <input type='name' class='form-control' id='exampleInputName' placeholder=''>
+                          <label for='email'>Email</label>
+                          <input type='Email' class='form-control' placeholder='you@youremail.com'>
+                          <label for='address'>Street Address</label>
+                          <input type='address' class='form-control' placeholder=''>
+                          <label for='city' class='city'>City</label>
+                          <label for='state' class='state'>State</label><br>
+                          <input type='city' class='form-control city' placeholder=''>
 
-  </form>
+                          <input type='state' class='form-control state' placeholder=''><br>
+                          <label for='phone'>Phone Number</label>
+                          <input type='Phone' class='form-control' placeholder='555-555-5555'>
+                      </div>
 
-  
+                      <div>
+                          <p><b>Returning Customer?</b></p>
+                              </div>
+                              <div class="radio">
+                                  <label>
+                                      <input type='radio' name='radios' value='Yes'>Yes
 
+                                  </label>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+                              </div>
+                              <div class="radio">
+                                  <label>
+                                      <input type='radio' name='radios' value='Yes'>No
+                                  </label>
+                                </form>
+                                
+                              </div>
+                          </div>
+                      </div>
+                    
+                  </div>
+                  <div class="submit">
+                    <button type='submit'>Submit</button>
+                  </div>
+                
 
+                
+            
+
+              
+
+ 
 
 
   <footer>
