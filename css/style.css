@@ -261,7 +261,7 @@ button{
 } */
 ul.descriptions{
 	font-family: 'Comic Neue', cursive;
-	font-size: 14px;
+	font-size: 18px;
 	padding-left: 20px;
 	list-style-type: square;
 }
@@ -326,6 +326,7 @@ footer{
   
  .about-pg{
    border: white;
+   border-width: 6px;
    padding: 6px;
  }
 
