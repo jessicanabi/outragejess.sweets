@@ -8,7 +8,7 @@ body{
 }
 
 .main-header{
-  font-size: 20px;
+  font-size: 18px;
   padding-top: 4%;
 }
 
@@ -17,7 +17,7 @@ h1{
     font-family: 'Comic Neue', cursive;
     font-weight: bold;
     color: black;
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
   }
 
@@ -61,10 +61,6 @@ header{
   justify-content: space-between;
 }
 
-
-.main-header{
-  font-size: 28px;
-}
 
 
 nav{
@@ -263,7 +259,7 @@ ul.descriptions{
 	font-family: 'Comic Neue', cursive;
 	font-size: 18px;
 	padding-left: 20px;
-	list-style-type: square;
+  list-style-type: square;
 }
 /*FOOTER*/
 
@@ -346,6 +342,11 @@ footer{
 
 }
 
+.logo-img{
+  float: left;
+  width: 3%;
+  height: 3%;
+}
 
 .user-info {
   grid-template-columns: 1fr 2fr;
