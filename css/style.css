@@ -25,6 +25,8 @@ p{
   font-family: 'Comic Neue', cursive;
   color: white;
   font-size: 20px;
+  margin: 4px;
+  text-align: center;
 }
   
 
@@ -211,9 +213,9 @@ button{
   background-color: #757575;
 }
 
-.order-button{
-  margin-bottom: 20px;
-  align-items: center;
+button.order-button{
+  left: 40%;
+  margin-top: 10px;
 }
 
 /*MAIN SECTION*/
@@ -261,6 +263,7 @@ ul.descriptions{
 	font-size: 18px;
 	padding-left: 20px;
   list-style-type: square;
+  margin: 12px ;
 }
 /*FOOTER*/
 
