@@ -327,7 +327,8 @@ color:white;
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
-   background-size: 50%;
+   background-size: cover;
+   height: 300px;
    
  }
 /*For Desktop*/
