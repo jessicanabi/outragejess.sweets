@@ -87,10 +87,10 @@ nav{
 }
 
 .header-text img{
-  width: 40%;
+  width: 50%;
   height: auto;
   align-items: center;
-  transform: translate(120px, 0px);
+  margin-left: 25%;
   animation-duration: 3s;
   -webkit-animation-duration: 3s;
   animation-name: slidein;
