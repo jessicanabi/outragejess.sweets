@@ -90,10 +90,35 @@ nav{
   width: 40%;
   height: auto;
   align-items: center;
-  -webkit-transform: translate(120px, 0px);
-	-ms-transform: translate(120px, 0px);
   transform: translate(120px, 0px);
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  animation-name: slidein;
+  -webkit-animation-name: slidein;
+  animation-iteration-count:1;
+	-webkit-animation-iteration-count:1;
 }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 50%;}
+
+  to {
+    margin-left: 0%;
+    width: 50%;}
+}
+
+@-webkit-keyframes slidein{
+	from {
+    margin-left: 100%;
+    width: 50%; }
+  to {
+    margin-left: 0%;
+    width: 50%;}
+}
+
+  
 
 .logo-img{
   float: left;
@@ -209,15 +234,13 @@ button{
   color: white;
   left:69%;
   position: absolute;
-  -webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
   transform: translate(-10px, -50px);
   background-color: #757575;
 }
 
 button.order-button{
-  left: 40%;
-  margin-top: 10px;
+  left: 38%;
+  margin-top: 40px;
 }
 
 /*MAIN SECTION*/
