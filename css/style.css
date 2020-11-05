@@ -240,7 +240,8 @@ button{
 
 button.order-button{
   left: 38%;
-  margin-top: 40px;
+  margin-top: 50px;
+  position: relative;
 }
 
 /*MAIN SECTION*/
