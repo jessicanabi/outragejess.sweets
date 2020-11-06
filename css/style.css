@@ -30,7 +30,7 @@ p{
 }
   
 
-h2{
+h2{ 
   font-family: 'Comic Neue', cursive;
   font-weight: bold;
   font-size: 32px;
@@ -214,17 +214,13 @@ button.order-button{
 }
 
 
-.about img, .gallery img, .price img{
+.about, .gallery, .price, .order{
   width: 100%;
   height: auto;
   padding: 3px;
 }
 
-.order{
-  width: 100%;
-  height: auto;
-  padding: 3px;
-}
+
 
 ul.descriptions{
 	font-family: 'Comic Neue', cursive;
