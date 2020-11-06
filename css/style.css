@@ -72,14 +72,6 @@ nav{
   justify-content: space-between;
 }
 
-/* .nav-links {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: baseline;
-} */
-
 .header-txt{
   top: 20%;
   color: #111;
@@ -126,42 +118,9 @@ nav{
   height: 8%;
 }
 
-/* #side-menu{
-	display: none;
-	width: 100%;
-}
 
-.navbar-toggle {
-	display: none;
-}
+/*NAV BAR */
 
-#small-button{
-	display: block;
-	margin-top: 0;
-	margin-left: auto;
-	margin-right: 2%;
-	border: none;
-  background-color: #C2D7DA;
-} */
-/*NAV BAR
-
-
-
-
-
-.menu-toggle{
-  color: #ddd;
-  font-size: 2rem;
-  position: relative;
-  top: 50%;
-  cursor: pointer;
-  z-index: 100;
-  float: right;
-} 
-.show .fa-bars {
-  display: none; 
-}
-*/
 nav ul{
   list-style-type: none;
   margin: 0;
@@ -255,35 +214,18 @@ button.order-button{
 }
 
 
-.about img, .gallery img, .price img, .order img{
+.about img, .gallery img, .price img{
   width: 100%;
   height: auto;
   padding: 3px;
 }
 
-
-/* .about .view-about{
-  position: absolute;
-  top: 63%;
-  right: 10px;
-  background-color: gray;
-  color: white;
+.order{
+  width: 100%;
+  height: auto;
   padding: 3px;
 }
 
-.gallery .view-gal{
-  position: relative;
-  bottom: 6px;
-  right: 10px;
-  background-color: gray;
-  color: white;
-  padding: 3px;
-}
-
- */
-/* .view-gal, .view-price, .view-order{
-
-} */
 ul.descriptions{
 	font-family: 'Comic Neue', cursive;
 	font-size: 18px;
@@ -426,16 +368,8 @@ header{
 }
 
 
-.view-menu
 
-/* .view-about,{
-  grid-row: 1 / 2;
-  grid-column: 1 / auto;
 
-}
-.view-price, .view-order{
-  
- */
  .pageinfo{
   display:grid;
 	grid-template-rows: repeat(2,auto);
@@ -461,7 +395,7 @@ header{
 }
 
 
-.order img{
+.order{
   grid-row: 2 / 2;
   grid-column: 2/ 3;
   width: 100%;
