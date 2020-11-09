@@ -7,16 +7,6 @@ body{
   color: white;
 }
 
-.main-header{
-  top: 20%;
-  color: #111;
-  padding: 4px;
-  font-family: 'Comic Neue', cursive;
-  font-weight: bold;
-  color: black;
-  font-size: 50px;
-  text-align: center;
-}
 
   
 h1{
@@ -58,6 +48,17 @@ h4{
   font-size: 22px;
   text-decoration: underline;
   color: white;
+}
+
+.main-header{
+  top: 20%;
+  color: #111;
+  padding: 4px;
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+  color: black;
+  font-size: 50px;
+  text-align: center;
 }
 
 /* HEADER*/
