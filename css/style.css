@@ -11,15 +11,22 @@ body{
   top: 20%;
   color: #111;
   padding: 4px;
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+  color: black;
+  font-size: 50px;
+  text-align: center;
 }
 
   
 h1{
-    font-family: 'Comic Neue', cursive;
-    font-weight: bold;
-    color: black;
-    font-size: 50px;
-    text-align: center;
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+  font-size: 32px;
+  text-decoration: underline;
+  color: white;
+  margin: 2%;
+  text-align: center;
   }
 
 p{
@@ -216,15 +223,7 @@ button.order-button{
   padding: 3px;
 }
 
-#about-text h1{
-  font-family: 'Comic Neue', cursive;
-  font-weight: bold;
-  font-size: 32px;
-  text-decoration: underline;
-  color: white;
-  margin: 2%;
-  text-align: center;
-}
+
 
 ul.descriptions{
 	font-family: 'Comic Neue', cursive;
