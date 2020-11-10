@@ -16,6 +16,7 @@ body{
   color: black;
   font-size: 50px;
   text-align: center;
+  text-decoration: none;
 }
   
 h1{
@@ -297,114 +298,6 @@ color:white;
    height: 300px;
    
  }
-/*For Desktop*/
-@media only screen and (min-width: 768px){
-  .pageinfo{
-  display:grid;
-	grid-template-rows: repeat(2,auto);
-  grid-template-columns: repeat(2, auto);
-  grid-gap: 8px;
-	background-color: #4BAAE8;
-  margin-top: 15px;
-
-}
-
-.logo-img{
-  float: left;
-  width: 3%;
-  height: 3%;
-}
-
-.user-info {
-  grid-template-columns: 1fr 2fr;
-  grid-column: auto;
-  }
-
-.about img{
-  grid-row: 1 / 2;
-  grid-column: 1 / 2;
-  width: 100%;
-  height: auto;
-}
-
-  
-h1{
-    font-family: 'Comic Neue', cursive;
-    font-weight: bold;
-    color: black;
-    font-size: 60px;
-    text-align: center;
-  }
-
-p{
-  font-family: 'Comic Neue', cursive;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-}
-  
-
-h2{
-  font-family: 'Comic Neue', cursive;
-  font-weight: bold;
-  font-size: 32px;
-  text-decoration: underline;
-  color: white;
-  margin: 2%;
-}
-
-
-/* HEADER*/
-header{
-  width: 100%;
-	font-family: 'Comic Neue', cursive;
-  font-size: 18px;
-  background-color: #4BAAE8;
-  z-index: 1;
-  display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-  justify-content: center;
-}
-
-
-
-
- .pageinfo{
-  display:grid;
-	grid-template-rows: repeat(2,auto);
-  grid-template-columns: repeat(2, auto);
-  grid-gap: 8px;
-	background-color: #4BAAE8;
-  margin-top: 15px;
-
-}
-
-.gallery img{
-  grid-row: 1 / 2;
-  grid-column: 2/ 3;
-  width: 100%;
-  height: auto;
-  }
-
-.price img{
-  grid-row: 2 / 2;
-  grid-column: 2/ 2;
-  width: 100%;
-  height: auto;
-}
-
-
-.order{
-  grid-row: 2 / 2;
-  grid-column: 2/ 3;
-  width: 100%;
-  height: auto;
-}
- 
-  
-
-
 
 
 /* For tablet*/
@@ -415,7 +308,162 @@ header{
 }
 
 /* For Laptop*/
+
 @media all and (min-width: 800px){
+  .pageinfo{
+    display:grid;
+    grid-template-rows: repeat(2,auto);
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 8px;
+    background-color: #4BAAE8;
+    margin-top: 15px;
+  
+  }
+
+  .about, .gallery, .price, .order{
+    width: 100%;
+    height: auto;
+    padding: 3px;
+  }
+  
+  
+
+  .main-header h1{
+  top: 20%;
+  color: #111;
+  padding: 4px;
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+  color: black;
+  font-size: 80px;
+  text-align: center;
+  text-decoration: none;
+  }
+
+
+  
+  .logo-img{
+    float: left;
+    width: 3%;
+    height: 3%;
+  }
+  
+  .main-img{
+    width: 60%;
+    height: auto;
+    align-items: center;
+    margin-left: 0%;
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-name: slidein;
+    -webkit-animation-name: slidein;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 60%;}
+  
+    to {
+      margin-left: 25%;
+      width: 60%;}
+  }
+  
+  @-webkit-keyframes slidein{
+    from {
+      margin-left: 100%;
+      width: 0%; }
+    to {
+      margin-left: 0%;
+      width: 50%;}
+  }
+
+  button{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+    left:69%;
+    position: absolute;
+    transform: translate(-10px, -50px);
+    background-color: #757575;
+  }
+  
+  button.order-button{
+    left: 38%;
+    margin-top: 50px;
+    position: relative;
+  }
+  
+  .user-info {
+    grid-template-columns: 1fr 2fr;
+    grid-column: auto;
+    }
+  
+  .about img{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    width: 100%;
+    height: auto;
+  }
+  
+    
+  h1{
+      font-family: 'Comic Neue', cursive;
+      font-weight: bold;
+      color: black;
+      font-size: 60px;
+      text-align: center;
+    }
+  
+  p{
+    font-family: 'Comic Neue', cursive;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+    
+  
+  h2{
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+    font-size: 32px;
+    text-decoration: underline;
+    color: white;
+    margin: 2%;
+  }
+  
+  
+  /* HEADER*/
+  header{
+    width: 100%;
+    font-family: 'Comic Neue', cursive;
+    font-size: 18px;
+    background-color: #4BAAE8;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  
+  
+  
+  
+
+
+  .parallaxabout {
+    background-image: url("../images/IMG_2134.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    
+  }
+    
   
   
 
@@ -426,5 +474,5 @@ header{
 	* {
 		animation: none;
 	}
-}
+
 }
