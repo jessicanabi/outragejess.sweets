@@ -43,7 +43,7 @@
                       <input type="radio" name="sizeofcake" value="cupcakes" onclick="total()">Cupcakes- sold by the dozen($60)<br>
               
               <br>
-                      <label for="cakeflav"><b>Cake Flavor :<b></label>
+                      <label for="cakeflav"><b>Cake Flavor :</b></label>
                       <select id="Flavor" onclick="total()">
                     <option value="none">Select Flavor</option>
                     <option value="vanilla flavor">Vanilla flavor($5)</option>
@@ -54,8 +54,8 @@
               
               
                       <br>
-                      <label for="filling"><b>Filling :<b></label>
-                      <select id="Filling" onclick="total()">
+                      <label for="filling"><b>Filling :</b></label>
+                      <select id="filling" onclick="total()">
                     <option value="none">Select Filling</option>
                     <option value="vanilla flavor">Vanilla flavor($5)</option>
                     <option value="chocolate flavor">Chocolate flavor($7)</option>
@@ -64,31 +64,31 @@
                       <br>
                       <input type="checkbox" name='colors' id="colors" onclick="total()"><b>Colored Cake($5)</b><br><br>
               
-                      <label for="message"><b> Enter Colors Here: <b></label>
-                      <input type="text" placeholder="Enter the Colors Here"> <br>
+                      <label for="message"><b> Enter Colors Here: </b></label>
+                      <input type="text" id="message" placeholder="Enter the Colors Here"> <br>
                       <br>
               
 
 
 
 
-                      
+                      <h2>Contact Info</h2>
                       <div class='form-group'>
-                        <h2>Contact Info</h2>
+                        
                           <label for='exampleInputName'>First Name:</label><br>
                           <input type='text' name="first" class='form-control' id='exampleInputName' placeholder=''><br>
                           <label for='exampleInputLast'>Last Name:</label><br>
                           <input type='text' name="Last"class='form-control' id='exampleInputLast' placeholder=''><br>
                           <label for='email'>Email:</label><br>
-                          <input type='email' name="email"class='form-control' placeholder='you@youremail.com'><br>
+                          <input type='email' name="email"class='form-control' id='email' placeholder='you@youremail.com'><br>
                           <label for='address'>Street Address:</label><br>
-                          <input type='text' name="'address"class='form-control' placeholder=''><br>
+                          <input type='text' name="'address"class='form-control' id='address' placeholder=''><br>
                           <label for='city' class='city'>City:</label><br>
-                          <input type='text' name="city" class='form-control city' placeholder=''><br>
+                          <input type='text' name="city" class='form-control city' id='city'placeholder=''><br>
                           <label for='state' class='state'>State:</label><br>
-                          <input type='text' name="state" class='form-control state' placeholder=''><br>
+                          <input type='text' name="state" class='form-control state' id='state' placeholder=''><br>
                           <label for='number'>Phone Number:</label><br>
-                          <input type='number' name="Phone number" class='form-control' placeholder='555-555-5555'><br>
+                          <input type='number' name="Phone number" class='form-control' id='phone' placeholder='555-555-5555'><br>
                       </div>
 
                       <div>
