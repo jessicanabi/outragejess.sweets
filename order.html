@@ -38,10 +38,10 @@
                   <h1>Order Form</h1>
                   <form action="https://formspree.io/f/meqpkvke" method="POST" id="cakeform"></form>
     
-                      <input type="radio" name="sizeofcake" value="roundcake6" onclick="total()">Round Cake 6"- serve 6 people($35)<br>
-                      <input type="radio" name="sizeofcake" value="roundcake8" onclick="total()">Round Cake 8"- serve 12 people($45)<br>
-                      <input type="radio" name="sizeofcake" value="roundcake9" onclick="total()">Round Cake 9"- serve 16 people($50)<br>
-                      <input type="radio" name="sizeofcake" value="cupcakes" onclick="total()">Cupcakes- sold by the dozen($60)<br>
+                      <label><input type="radio" name="sizeofcake" value="roundcake6" onclick="total()">Round Cake 6"- serve 6 people($35)</label><br>
+                      <label><input type="radio" name="sizeofcake" value="roundcake8" onclick="total()">Round Cake 8"- serve 12 people($45)</label><br>
+                    <label><input type="radio" name="sizeofcake" value="roundcake9" onclick="total()">Round Cake 9"- serve 16 people($50)</label><br>
+                  <label><input type="radio" name="sizeofcake" value="cupcakes" onclick="total()">Cupcakes - sold by the dozen($60)</label><br>
               
               <br>
                       <label for="cakeflav"><b>Cake Flavor :</b></label>
@@ -63,7 +63,7 @@
                     <option value="cookies & cream flavor">Cookies & cream flavor($10)</option>
                   </select><br>
                       <br>
-                      <input type="checkbox" name='colors' id="colors" onclick="total()"><b>Colored Cake($5)</b><br><br>
+                    <label><input type="checkbox" name='colors' id="colors" onclick="total()"><b>Colored Cake($5)</b></label><br><br>
               
                       <label for="message"><b> Enter Colors Here: </b></label>
                       <input type="text" id="message" placeholder="Enter the Colors Here"> <br>
