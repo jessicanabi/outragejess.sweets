@@ -178,7 +178,6 @@ nav a:hover{
   z-index: 1;
   position: absolute;
   top: -40px;
-  visibility: hidden;
 }
 
 .skip a:focus{
@@ -439,8 +438,7 @@ color:white;
   
   .logo-img{
     float: left;
-    width: 3%;
-    height: 3%;
+    position: relative;
   }
   
   .main-img{
