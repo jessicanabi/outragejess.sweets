@@ -277,13 +277,13 @@ footer{
   width: 120px;
   height: 120px;
   }
-  .user-info {
+  #user-info {
     padding-top: 20px;
     padding-bottom: 20px;
   }
   
 
-.user-info a{
+#user-info a{
 color:white;
 }
  
@@ -489,7 +489,7 @@ color:white;
     position: relative;
   }
   
-  .user-info {
+  #user-info {
     grid-template-columns: 1fr 2fr;
     grid-column: auto;
     }
