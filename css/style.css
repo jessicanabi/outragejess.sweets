@@ -390,17 +390,16 @@ color:white;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   grid-gap: 28px;
+  width: 100%;
+  height: auto;
 }
+
 .insta-feed img{
   width: 244px;
   height: 220px;
   }
 
-  .col-md-12 p{
-    margin:0;
-    text-align: left;
 
-  }
 /* For Laptop*/
 
 @media all and (min-width: 900px){
@@ -436,16 +435,13 @@ color:white;
 
 
   
-  .logo-img{
-    float: left;
-    position: relative;
-  }
+
   
   .main-img{
     width: 60%;
     height: auto;
     align-items: center;
-    margin-left: 0%;
+    margin-left: 20%;
     animation-duration: 3s;
     -webkit-animation-duration: 3s;
     animation-name: slidein;
@@ -457,20 +453,20 @@ color:white;
   @keyframes slidein {
     from {
       margin-left: 100%;
-      width: 50%;}
+      width: 60%;}
   
     to {
-      margin-left: 25%;
-      width: 50%;}
+      margin-left: 20%;
+      width: 60%;}
   }
   
   @-webkit-keyframes slidein{
     from {
       margin-left: 100%;
-      width: 50%; }
+      width: 60%; }
     to {
-      margin-left: 25%;
-      width: 50%;}
+      margin-left: 20%;
+      width: 60%;}
   }
 
   button{
@@ -536,14 +532,23 @@ color:white;
     background-color: #4BAAE8;
     z-index: 1;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+  
   }
   
   
   
-  
+  .logo-img{
+    margin-left: -90%;
+     position: absolute;
+      width: 8%;
+      height: 8%;
+    
+    
+
+  }
   
 
 
