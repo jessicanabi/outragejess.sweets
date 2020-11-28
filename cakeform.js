@@ -11,7 +11,13 @@ var Form=document.forms["cakeform"];
  	filling_price["none"]=0;
  	filling_price["vanilla flavor"]=5;
  	filling_price["chocolate flavor"]=7;
- 	filling_price["cookies & cream flavor"]=10;
+	 filling_price["cookies & cream flavor"]=10;
+	 
+	 var flavor_price=new Array();
+ 	flavor_price["none"]=0;
+ 	flavor_price["vanilla flavor"]=5;
+ 	flavor_price["chocolate flavor"]=7;
+ 	flavor_price["cookies & cream flavor"]=10;
 
 //finding price of cake bas on size
  function CakeSizePrice(){
@@ -40,6 +46,16 @@ var Form=document.forms["cakeform"];
  	return fillingPrice;
 }
 
+
+//finding price of cake flavor
+function FlavorPrice(){
+	var flavorPrice=0;
+	var Form=document.forms["cakeform"];
+	var flavorselect=Form.elements["cakeflav"];
+	flavorPrice=flavor_price[flavorselect.value];
+	return flavorPrice;
+}
+
 //for include colors
 
 function ColorPrice(){
@@ -58,7 +74,7 @@ function ColorPrice(){
 //final total amount of cake
 
 function total(){
-	var TotalPrice=CakeSizePrice() +FillingPrice()+ ColorPrice();
+	var TotalPrice=CakeSizePrice() + FlavorPrice()+ FillingPrice()+ ColorPrice() ;
 
 	//final result
 	document.getElementById("display").innerHTML="total price $"+TotalPrice;
