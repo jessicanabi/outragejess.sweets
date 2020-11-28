@@ -389,7 +389,12 @@ input[type=text], input[type=email], input[type=number], select, textarea {
   }
 
   #display{
-  font-family: 'Comic Neue', cursive;
+    font-family: 'Comic Neue', cursive;
+    color: black;
+  }
+
+  #display.box{
+  
   width: 40%; 
   padding: 16px; 
   background-color: white;
@@ -677,12 +682,8 @@ input[type=text], input[type=email], input[type=number], select, textarea {
 
 
   .parallaxabout {
-    background-image: url("../images/IMG_2134.jpg");
-    background-attachment: scroll;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
+    background-attachment: fixed;
+    height: 300px;
     
   }
 
