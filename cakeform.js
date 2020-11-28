@@ -77,5 +77,5 @@ function total(){
 	var TotalPrice=CakeSizePrice() + FlavorPrice()+ FillingPrice()+ ColorPrice() ;
 
 	//final result
-	document.getElementById("display").innerHTML="total price $"+TotalPrice;
+	document.getElementById("display").innerHTML="Total Price: $"+TotalPrice;
 }
