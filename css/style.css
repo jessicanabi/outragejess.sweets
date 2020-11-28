@@ -387,7 +387,21 @@ input[type=text], input[type=email], input[type=number], select, textarea {
 	margin-bottom: 10px; 
 	resize: vertical 
   }
-  
+
+  #display{
+  font-family: 'Comic Neue', cursive;
+  width: 40%; 
+  padding: 16px; 
+  background-color: white;
+	border: 1px solid black;
+	border-radius: 2px; 
+	box-sizing: border-box; 
+	margin-top: 8px; 
+	margin-bottom: 10px; 
+	resize: vertical 
+
+  }
+
 
 
 /* -----------------------------For tablet-------------------------*/
