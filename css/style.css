@@ -9,7 +9,7 @@
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url("../images/giphy.gif") center no-repeat;
+	background: url("images/giphy.gif") center no-repeat;
 }
 
 
@@ -554,7 +554,10 @@ input[type=text], input[type=email], input[type=number], select, textarea {
     margin: 20px
   }
 
-
+  ul.descriptions{
+    font-size: 30px;
+    margin-left: 9%;
+  }
   
 
   .main-header h1{
@@ -641,6 +644,7 @@ input[type=text], input[type=email], input[type=number], select, textarea {
       color: black;
       font-size: 60px;
       text-align: center;
+      margin-top: 8%;
     }
   
   p{
@@ -698,7 +702,9 @@ input[type=text], input[type=email], input[type=number], select, textarea {
 
 
   .parallaxabout {
+    background-position: 50% 110%;
     background-attachment: fixed;
+    background-size: 80%;
     height: 300px;
     
   }
