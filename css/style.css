@@ -614,7 +614,7 @@ input[type=text], input[type=email], input[type=number], select, textarea {
     
     p{
       font-family: 'Comic Neue', cursive;
-      color: white;
+      color: black;
       font-size: 20px;
       margin: 4px 10%;
       text-align: center;
@@ -769,7 +769,7 @@ input[type=text], input[type=email], input[type=number], select, textarea {
   
   p{
     font-family: 'Comic Neue', cursive;
-    color: white;
+    color: black;
     font-size: 20px;
     text-align: center;
   }
