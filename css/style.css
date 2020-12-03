@@ -29,7 +29,7 @@ h1{
   font-weight: bold;
   font-size: 32px;
   text-decoration: underline;
-  color: white;
+  color: black;
   margin-top: 8%;
   text-align: center;
   }
@@ -48,7 +48,7 @@ h2{
   font-weight: bold;
   font-size: 32px;
   text-decoration: underline;
-  color: white;
+  color: black;
   margin: 2%;
   text-align: center;
 }
@@ -240,8 +240,9 @@ nav::after {
   }
 }
 
+
 .current{
-  background-color: #757575;
+  background-color: #c8cacc;
   color: black;
   text-decoration: underline;
 }
@@ -386,8 +387,8 @@ footer{
 }
 
 .play-card:hover .card-back p{
-  background-color: #000;
-  color: #fff;
+  background-color: white;
+  color: black;
   transform: rotateY(180deg);
   vertical-align: middle;
   line-height: normal
@@ -409,7 +410,7 @@ backface-visibility: hidden;
 }
 
 .card-front p{
-  color: white;
+  color: black;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -459,7 +460,7 @@ background-color:#757575;
   
 
 #user-info a{
-color:white;
+color:black;
 }
  
 /*order*/
@@ -473,7 +474,8 @@ input[type=text], input[type=email], input[type=number], select, textarea {
 	box-sizing: border-box; 
 	margin-top: 8px; 
 	margin-bottom: 10px; 
-	resize: vertical 
+  resize: vertical;
+  color: black;
   }
 
   #display{
@@ -495,6 +497,13 @@ input[type=text], input[type=email], input[type=number], select, textarea {
 
   }
 
+  #cakeform label{
+    color: #000;
+  }
+
+  h5{
+    color: black;
+  }
 
 
 /* -----------------------------For tablet-------------------------*/
@@ -559,7 +568,7 @@ input[type=text], input[type=email], input[type=number], select, textarea {
     font-weight: bold;
     font-size: 32px;
     text-decoration: underline;
-    color: white;
+    color: black;
     margin: 2%;
     text-align: center;
     }
@@ -567,7 +576,7 @@ input[type=text], input[type=email], input[type=number], select, textarea {
     button{
       font-family: 'Noto Sans', sans-serif;
       font-size: 20px;
-      color: white;
+      color: black;
       left:69%;
       position: absolute;
       transform: translate(0px, -90px);
@@ -626,7 +635,7 @@ input[type=text], input[type=email], input[type=number], select, textarea {
 }
 
 .card-front p{
-  color: white;
+  color: black;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -640,7 +649,7 @@ input[type=text], input[type=email], input[type=number], select, textarea {
 .play-card {
   width: 250px;
   height: 250px;
-  background-color: #000;  
+  background-color: white;  
   margin: 15px;
   perspective: 1000px;
 }
