@@ -273,7 +273,7 @@ nav::after {
 button{
   font-family: 'Noto Sans', sans-serif;
   font-size: 18px;
-  color: white;
+  color: black;
   left:69%;
   position: absolute;
   transform: translate(-10px, -50px);
@@ -311,6 +311,7 @@ ul.descriptions{
 	padding-left: 20px;
   list-style-type: square;
   margin: 12px ;
+  color:black;
 }
 /*FOOTER*/
 
@@ -690,6 +691,7 @@ input[type=text], input[type=email], input[type=number], select, textarea {
   ul.descriptions{
     font-size: 30px;
     margin-left: 9%;
+    color:black;
   }
   
 
