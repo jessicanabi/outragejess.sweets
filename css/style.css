@@ -1,25 +1,14 @@
 
-/* loader/cake gif */
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-.se-pre-con {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: url("images/giphy.gif") center no-repeat;
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-
-
-
 body{
   background-color: #4BAAE8;
   font-size: 18px;
-  margin: 0;
-  padding: 0;
   color: white;
 }
 
@@ -84,9 +73,9 @@ header{
   font-size: 14px;
   background-color: #4BAAE8;
   z-index: 1;
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 
 
@@ -94,9 +83,11 @@ header{
 nav{
   list-style-type: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
+  overflow-x: hidden;
 }
+
 
 
 .main-img{
@@ -147,6 +138,13 @@ nav ul{
   margin: 0;
   padding: 0;
   background-color: #4BAAE8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  z-index: 1250;
+  transform: translate(40%, -100%);
+  /* transition: transform .5s; */
 }
 
 nav li a{
@@ -159,13 +157,15 @@ nav li a{
 }
 
 nav li{
-  float: right;
+  /* float: right; */
+  display: block;
 }
 
 nav li a:hover{
     background-color: #111;
     color: white;
 }
+
 
 nav a:active{
   color: #757575;
@@ -176,7 +176,69 @@ nav a:hover{
   text-decoration: underline
 }
 
+/*hambar*/
+.menu-toggle{
+color: white;
+font-size: 30px;
+position: absolute;
+top: 3%;
+transform: translateY(-50%);
+cursor: pointer;
+z-index: 1500;
+right: 5%;
+}
 
+nav::before {
+  content: '';
+  position: fixed;
+  z-index: 1000;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.5s;
+}
+nav::after {
+  content: '';
+  position: fixed;
+  z-index: 1000;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.5s;
+}
+.fas.fa-times {
+  display: none;
+}
+
+.show .fas.fa-times {
+  display: block;
+}
+
+.show .fas.fa-bars {
+  display: none; 
+}
+
+.show nav ul {
+  transform: translateX(40%);
+}
+
+.show nav::before {
+  opacity: 1;
+  transform: scale(1);
+} 
+
+@keyframes showsUp {
+  0% {
+      opacity: 0;
+  }
+
+  50% {
+      opacity: 1;
+  }
+
+  100% {
+      opacity: 0;
+      transform: translateY(-1rem);
+  }
+}
 
 .current{
   background-color: #757575;
@@ -304,7 +366,7 @@ footer{
   .play-card {
     width: 250px;
     height: 250px;
-    background-color: #000;  
+    /* background-color: #000;   */
     margin: 15px;
     perspective: 1000px;
 }
@@ -320,10 +382,21 @@ footer{
 
 .play-card:hover .card-inner {
   transform: rotateY(180deg);
+  filter: opacity(0.5);
+}
+
+.play-card:hover .card-back p{
+  background-color: #000;
+  color: #fff;
+  transform: rotateY(180deg);
+  vertical-align: middle;
+  line-height: normal
+
 }
 
 .card-front {
-  background-color: #000;
+  /* background-color: #000; */
+  /* opacity: 50%; */
   color: #fff;
 }
 
@@ -347,26 +420,26 @@ backface-visibility: hidden;
   text-align: center;
 }
 
-.card-back {
+/* .card-back {
   background-color: #000;
   color: #fff;
   transform: rotateY(180deg);
   vertical-align: middle;
-  line-height: normal
-}
+  line-height: normal } */
 
 .card-back p {
-  padding-top: 40px;
+  margin-top: 8px;
+  padding: 6px;
 }
 
 .play-card img {
   width: 250px;
   height: 250px;
-  background-color: #2a2a2a;
+  /* background-color: #2a2a2a; */
   border: 2px solid white;
 }  
 
-.play-card:hover .card-front {
+/* .play-card:hover .card-front {
 filter: opacity(0.5);
 text-decoration: underline;
 position: absolute;
@@ -380,7 +453,7 @@ opacity: 0;
 transition: .5s ease;
 background-color:#757575;
 }
-
+ */
 
 
  
@@ -440,6 +513,48 @@ input[type=text], input[type=email], input[type=number], select, textarea {
     text-decoration: none;
   }
     
+  header{
+    padding-bottom: 30px;
+  }
+
+  .menu-toggle{
+    display:none;
+  }
+
+  nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #4BAAE8;
+  }
+
+  .show nav ul {
+    transform: none;
+  }
+  
+  .show nav::before {
+    opacity: none;
+    transform: none;
+  } 
+  
+
+
+  nav ul{
+    list-style-type: none;
+    margin-left: 100px;
+    padding: 0;
+    background-color: #4BAAE8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    z-index: 1250;
+    transform: translate(0);
+  }
+  
+
+
   h1{
     font-family: 'Comic Neue', cursive;
     font-weight: bold;
@@ -548,6 +663,11 @@ input[type=text], input[type=email], input[type=number], select, textarea {
     background-color: #4BAAE8;
     margin-top: 15px;
   
+  }
+
+  nav ul{
+    width: 100%;
+    margin: 0;
   }
 
   body{
@@ -702,7 +822,7 @@ input[type=text], input[type=email], input[type=number], select, textarea {
 
 
   .parallaxabout {
-    background-position: 50% 110%;
+    /* background-position: 50% 110%; */
     background-attachment: fixed;
     background-size: 80%;
     height: 300px;
@@ -713,15 +833,15 @@ input[type=text], input[type=email], input[type=number], select, textarea {
     display: grid;
     grid-template-columns: repeat(3, auto);
     justify-content: center;
-    grid-gap: 28px;
+    grid-gap: 12px;
     align-content: center;
     justify-content: center;
   }
     
   
     .play-card {
-      width: 300px;
-      height: 280px;
+      width: 250px;
+      height: 250px;
       background-color: #000;  
       margin: 15px;
       perspective: 1000px;
@@ -736,8 +856,9 @@ input[type=text], input[type=email], input[type=number], select, textarea {
       transform-style: preserve-3d;
   }
 
-  .play-card:focus .card-inner {
+  .play-card:hover .card-inner {
     transform: rotateY(180deg);
+    filter: opacity(0.5)
 }
 
   .card-front {
@@ -767,15 +888,13 @@ input[type=text], input[type=email], input[type=number], select, textarea {
 }
 
 .play-card img {
-    width: 300px;
-    height: 280px;
+    width: 250px;
+    height: 250px;
     background-color: #2a2a2a;
     border: 2px solid white;
 }  
 
-.play-card:hover .card-inner {
-  filter: opacity(0.5)
-}
+
 
 
  
@@ -784,6 +903,8 @@ input[type=text], input[type=email], input[type=number], select, textarea {
 @media (prefers-reduced-motion: reduce){
 	* {
 		animation: none;
-	}
+  }
+  
+  
 
 }}
