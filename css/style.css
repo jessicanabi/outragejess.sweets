@@ -428,8 +428,7 @@ backface-visibility: hidden;
   line-height: normal } */
 
 .card-back p {
-  margin-top: 8px;
-  padding: 6px;
+  background-color: white;
 }
 
 .play-card img {
